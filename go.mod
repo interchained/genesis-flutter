@@ -1,3 +1,3 @@
-module github.com/tendermint/flutter
+module github.com/interhchained/flutter
 
 go 1.16
