@@ -10,6 +10,6 @@ var app embed.FS
 
 // Boilerplate is a flutter app starter for Cosmos SDK chains.
 func Boilerplate() fs.FS {
-	f, _ := fs.Sub(app, "starport_template")
+	f, _ := fs.Sub(app, "genesis_template")
 	return f
 }
