@@ -1,5 +1,5 @@
-name: starport_template
-description: Starport template for flutter
+name: genesis_template
+description: Genesis template for flutter
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -17,19 +17,19 @@ dependencies:
   flutter_mobx: 2.0.1
   cosmos_ui_components:
     git:
-      url: https://github.com/tendermint/flutter.git
+      url: https://github.com/interchained/genesis-flutter.git
       path: packages/cosmos_ui_components
       ref: main
 
   cosmos_utils:
     git:
-      url: https://github.com/tendermint/flutter.git
+      url: https://github.com/interchained/genesis-flutter.git
       path: packages/cosmos_utils
       ref: main
 
   transaction_signing_gateway:
     git:
-      url: https://github.com/tendermint/flutter.git
+      url: https://github.com/tendermint/genesis-flutter.git
       path: packages/transaction_signing_gateway
       ref: main
 
